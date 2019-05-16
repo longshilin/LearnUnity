@@ -47,7 +47,7 @@ public class BaseUnit : MonoBehaviour
             OnSubHp(this, harmNumber, damageType, showType);
     }
 
-    public bool IsHero
+    virtual public bool IsHero
     {
         get { return true; }
     }
